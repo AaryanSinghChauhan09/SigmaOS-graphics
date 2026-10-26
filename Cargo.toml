@@ -1,0 +1,17 @@
+[package]
+name = "sigmaos-graphics"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Project"]
+description = "Graphics subsystem"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-graphics"
+readme = "README.md"
+keywords = ["graphics", "rendering", "display"]
+categories = ["gui"]
+
+[dependencies]
+sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }
+
+[profile.release]
+opt-level = 3
