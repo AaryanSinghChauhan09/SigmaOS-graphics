@@ -2,10 +2,9 @@
 name = "sigmaos_graphics"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS graphics subsystem: DRM/KMS, compositor, framebuffer, surface, rendering"
+license = "MIT"
+description = "SigmaOS graphics component inspired by Linux Mint / Omarchy / Arch Linux."
 
 [lib]
 name = "sigmaos_graphics"
 path = "src/lib.rs"
-
-[dependencies]
